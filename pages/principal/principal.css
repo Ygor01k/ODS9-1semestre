@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    height: 1000em;
+
+    font-size: .8em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    
+    height: 1000em;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position:fixed; */
+
+    background-color: #212B38 ;
+    height: 3em;
+
+
+}
+
+.cabecalho div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+    background-color: #726EFF;
+    width: 8em;
+
+    border-radius: 50px;
+}
+
+.sustent{
+    line-height: 2em;
+
+
+
+}
+/* .p{
+    height: 100em;
+} */
+footer{
+
+    display: flex;
+    flex-direction: row;
+    
+   
+    
+    
+
+    
+}
+
+
+
+
+
+
