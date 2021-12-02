@@ -73,7 +73,10 @@ body {
 
 /* //// MAIN/PRINCIPAL //// */
 
-
+a{
+  color: #fff;
+  text-decoration: none;
+}
 .conteudo{
     display:flex;
     flex-direction: column;
