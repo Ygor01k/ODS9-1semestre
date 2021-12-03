@@ -38,36 +38,15 @@ body {
 /* //// HEADER/CABEÇALHO //// */
 
 .cabecalho{
-    position:sticky;
-    top: 0%;
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-    color: #fff;
+    
     background-color: #212B38 ;
-    height:8em;
-    margin-bottom: 2.5em;
-
+    
 }
 
 .cabecalho div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    cursor:pointer;
-
-    
     background-color: #627F8C;
-    width: 9.5em;
-    height: 4.5em;
-    border-radius: 50px;
+  
 }
-
 
 .cabecalho div:hover{
     
@@ -99,7 +78,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10em;
+    
 }
 
 .container-cont div{
@@ -116,6 +95,8 @@ h1{
     flex-direction: column;
     align-items: center;
     margin: 1em;
+    width: 75%;
+
 }
 
 .titulo{
@@ -129,23 +110,25 @@ h1{
     width: 100%;
     height: 2em;
     border-radius: 5px;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 }
 
 .img-grande{
-    width: 95em;
+    
+    max-width: 70%;
     height: auto;
 }
 
 img{
-    width: 40em;
+    width:500em;
+    max-width: 25%;
     height: auto;
     margin-right: 5em;
 }
 
 .intro{
-    max-width:157.5em ;
-    margin-bottom: 3em;
+    max-width:75% ;
+    margin-bottom: 5em;
 }
 
 .txt-intro{
@@ -156,7 +139,8 @@ img{
 .txt-img{
     display: flex;
     flex-direction: row;
-    height: 74em;
+    margin-bottom: 15em;
+    width: 95%;
     
 }
 
@@ -164,7 +148,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width:110em ;
+    max-width:100% ;
     
     
 }
@@ -172,9 +156,16 @@ img{
 .texto{
     font:3.5em Roboto;
     margin-top: 1em;
+    
 }
 
+.txt-bat{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 
+    align-items: flex-start;
+}
 
 
 /* //// FOOTER/RODAPÉ //// */
@@ -189,6 +180,7 @@ img{
     color: #fff;
     background-color: #212B38;
     height: 15em;
+    max-height: 25%;
     margin-top: 3em; 
 }
 

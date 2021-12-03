@@ -3,10 +3,7 @@
   src: url(../../assets/fonts/Roboto/Roboto-Medium.ttf);
 }
 
-a{
-  color: #fff;
-  text-decoration: none;
-}
+
 
 * {box-sizing: border-box}
 
@@ -15,7 +12,7 @@ body {
     margin:0;
     
     
-    background-color: #78B4C7 ;
+    background-color: #91C791 ;
     font-size: .7em;
     
 
@@ -32,36 +29,18 @@ body {
 
 /* //// HEADER/CABEÇALHO //// */
 
+
 .cabecalho{
-    position:sticky;
-    top: 0%;
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-    color: #fff;
-    background-color: #212B38 ;
-    height:8em;
-    margin-bottom: 2.5em;
-
+    
+  background-color: #2B3600 ;
+  
 }
 
 .cabecalho div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    cursor:pointer;
+  background-color: #216824;
 
-    
-    background-color: #1C8EB1;
-    width: 9.5em;
-    height: 4.5em;
-    border-radius: 50px;
 }
+
 
 
 .cabecalho div:hover{
@@ -85,7 +64,7 @@ body {
 
 }
 a{
-  
+  color: #fff;
   text-decoration: none;
 }
 
@@ -118,7 +97,7 @@ a{
   padding: 2em;
   height: 14em;
   width: 12em;
-  background-color: #1C8EB1;
+  background-color: #216824;
   color: #fff;
 
 }
@@ -138,7 +117,7 @@ a{
     justify-content: center;
 
     color: #fff;
-    background-color: #212B38;
+    background-color: #2B3600;
     height: 15em;
     margin-top: 3em; 
 }
@@ -149,7 +128,8 @@ a{
 
     font-size:1.45em; 
     border-radius: 25px;
-    background-color: #2F3946;
+    background-color: #1F2700;
+    opacity: .6;
     padding: 1em;
 
 }
