@@ -107,6 +107,10 @@ a{
     /* margin: 1em */
 }
 
+h1{
+    font: 5em Roboto ;
+}
+
 .cont{
     display: flex;
     flex-direction: column;
@@ -128,10 +132,25 @@ a{
     margin-bottom: 1em;
 }
 
+.img-grande{
+    width: 95em;
+    height: auto;
+}
+
 img{
     width: 40em;
     height: auto;
     margin-right: 5em;
+}
+
+.intro{
+    max-width:157.5em ;
+    margin-bottom: 3em;
+}
+
+.txt-intro{
+    text-align: center;
+   
 }
 
 .txt-img{
@@ -192,6 +211,8 @@ img{
 
     
 }
+
+
 
 
 
