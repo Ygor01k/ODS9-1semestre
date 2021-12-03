@@ -77,7 +77,7 @@ a{
 }
 
 .container-cont div{
-    /* border: solid 1px red; */
+    border: solid 1px red;
     /* margin: 1em */
 }
 
@@ -90,7 +90,6 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1em;
     width: 77%;
 
 }
@@ -142,20 +141,51 @@ h1{
 
 .txt-intro{
     text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     
 }
 
 .txt-img{
     display: flex;
     flex-direction: row;
-    margin-bottom: 15em;
+    margin-bottom: 5em;
     width: 95%;
-    margin-top: 2em;
+    margin-top: 4em;
+}
+.txt-img-ind{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+    width: 95%;
+    margin-top: 4em;
+    
+}
+
+.txt-imd{
+    text-align: center;
+    margin-bottom: 2em;
+    width: 99%;
+
+}
+.img-ima{
+    max-width: 50%;
+}
+
+.txt-ima{
+    width: 94.5%;
+    text-align: center;
+}
+
+.txt-ima2{
+    max-width:90% ;
 }
 
 .div-texto{
     display: flex;
     flex-direction: column;
+   
+  
     
     max-width:100% ;
     
@@ -171,9 +201,23 @@ h1{
 }
 .moto{
     text-align: center;
+    margin-top: 2em;
 }
 
+.txt-img-rel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    margin-bottom: 5em;
+    width: 95%;
+    margin-top: 4em;
+}
+
+.txt-rel{
+    text-align: center;
+    width: 99%;
+}
 
 /* //// FOOTER/RODAPÉ //// */
 
