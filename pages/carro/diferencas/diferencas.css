@@ -43,9 +43,13 @@ body {
     
 }
 
-.cabecalho div{
+.cabecalho-div{
     background-color: #627F8C;
   
+}
+
+.difencas{
+    background-color: #8CB4C7;
 }
 
 .cabecalho div:hover{

@@ -1,6 +1,14 @@
 @font-face {
-  font-family: Roboto;
+  font-family: Roboto medio;
   src: url(../../assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto light;
+    src: url(/assets/fonts/Roboto/Roboto-Light.ttf);
 }
 
 
@@ -8,14 +16,14 @@
 * {box-sizing: border-box}
 
 body {
-    font-family: Verdana, sans-serif; 
+    font-family: Roboto; 
     margin:0;
     
     
     background-color: #91C791 ;
     font-size: .7em;
     
-
+    
 }
 
 .container{
@@ -29,18 +37,20 @@ body {
 
 /* //// HEADER/CABEÇALHO //// */
 
-
 .cabecalho{
     
   background-color: #2B3600 ;
   
 }
 
-.cabecalho div{
+.cabecalho-div{
   background-color: #216824;
 
 }
 
+.ambiente{
+  background-color: #009F06;
+}
 
 
 .cabecalho div:hover{
@@ -55,54 +65,70 @@ body {
 
 /* //// MAIN/PRINCIPAL //// */
 
-
-.conteudo{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-}
 a{
   color: #fff;
   text-decoration: none;
 }
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.40em;
+    
+
+}
+
+
 
 .cards-row{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
+  margin-top: 10em;
+  margin-bottom: 9em;
   /* border: solid 2px red; */
   
-  font:1.5em Roboto;
+  
   
 }
 
-.um{
-  margin-bottom: 8.8em;
-
-}
-
-
-
 .cards{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 18.5em;
+  /* width: 20%; */
+  height: 20em;
 
-  text-align: center;
-  border-radius: 25px;
-  padding: 2em;
-  height: 14em;
-  width: 12em;
-  background-color: #216824;
-  color: #fff;
 
+  
 }
 
+.cards-coment{
+  color: #fff;
+  background-color: #2B3600 ;
+  padding: .25em 2em;
+  border-radius: 8px;
+  
+  position: absolute;
+  top: 0%;
+  text-align: center;
+  width: 85%;
+}
 
+.cards-cont{
+  text-align: center;
+  border-radius: 15px;
+  height: 90%;
+  padding: 1.5em 1em;
+  
+  
+  background-color: #216824;
+  color: #fff;
+ 
+}
 
 
 
@@ -128,8 +154,7 @@ a{
 
     font-size:1.45em; 
     border-radius: 25px;
-    background-color: #1F2700;
-    opacity: .6;
+    background-color: #2F3946;
     padding: 1em;
 
 }
@@ -142,10 +167,3 @@ a{
 
     
 }
-
-
-
-
-
-
-

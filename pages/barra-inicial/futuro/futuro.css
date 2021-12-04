@@ -20,7 +20,7 @@ body {
     margin:0;
     
     
-    background-color: #78B4C7 ;
+    background-color: #6D83B9 ;
     font-size: .7em;
     
     
@@ -39,17 +39,17 @@ body {
 
 .cabecalho{
     
-  background-color: #212B38 ;
+  background-color: #A0B2C8 ;
   
 }
 
 .cabecalho-div{
-  background-color: #1C8EB1;
+  background-color: #3865D7;
 
 }
 
-.inovacao{
-  background-color: #00C2FF;
+.futuro{
+  background-color: #0449FA;
 }
 
 
@@ -78,7 +78,10 @@ a{
 
 }
 
-
+a{
+  
+  text-decoration: none;
+}
 
 .cards-row{
   display: flex;
@@ -107,11 +110,8 @@ a{
 }
 
 .cards-coment{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: #fff;
-  background-color: #212B38 ;
+  background-color: #A0B2C8 ;
   padding: .25em 2em;
   border-radius: 8px;
 
@@ -120,8 +120,6 @@ a{
 
   text-align: center;
   width: 85%;
-  font-size: .85em;
-  height: 2em;
 }
 
 .cards-cont{
@@ -131,7 +129,7 @@ a{
   padding: 1.5em 1em;
   
   
-  background-color: #1C8EB1;
+  background-color: #3865D7;
   color: #fff;
  
 }
@@ -149,7 +147,7 @@ a{
     justify-content: center;
 
     color: #fff;
-    background-color: #212B38;
+    background-color: #A0B2C8;
     height: 15em;
     margin-top: 3em; 
 }

@@ -43,11 +43,15 @@ body {
     
 }
 
-.cabecalho div{
+.cabecalho-div{
     background-color: #627F8C;
   
 }
 
+.especificacoes{
+    background-color: #8CB4C7;
+  }
+  
 
 .cabecalho div:hover{
     

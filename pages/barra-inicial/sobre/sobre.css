@@ -1,6 +1,14 @@
 @font-face {
-  font-family: Roboto;
+  font-family: Roboto medio;
   src: url(../../assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto light;
+    src: url(/assets/fonts/Roboto/Roboto-Light.ttf);
 }
 
 
@@ -21,10 +29,12 @@ body {
 .container{
     display: flex;
     flex-direction: column ;
+
     
     /* height: 1000em; */
     
 }
+
 
 
 /* //// HEADER/CABEÇALHO //// */
@@ -36,13 +46,16 @@ body {
     background-color: #212B38 ;
     
   }
-  
-  .cabecalho div{
+ 
+  .cabecalho-div{
     background-color: #627F8C;
   
   }
 
-
+  .sobre{
+    background-color: #5FA5C5;
+  }
+  
 
 .cabecalho div:hover{
     
@@ -70,6 +83,31 @@ a{
   color: #fff;
   text-decoration: none;
 }
+
+.div-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 7.5em;
+  margin-bottom: 5.5em;
+
+
+}
+
+
+.div-info{
+  background-color: #212B38 ;
+  text-align: center;
+  font: 2em Roboto;
+  color: #fff;
+
+  width: 87%;
+  padding: 5em;
+  border-radius: 25px;
+}
+
 
 
 
