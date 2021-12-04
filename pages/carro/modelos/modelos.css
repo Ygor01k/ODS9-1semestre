@@ -21,7 +21,7 @@ body {
     
     
     background-color: #fff ;
-    font-size: .7em;
+    font: .7em Roboto;
     
 
 }
@@ -96,14 +96,28 @@ a{
     
 }
 
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+    background-color: #627F8C;
+    height: 4em;
+    margin-bottom: 3em;
+
+}
+
 .div-img{
     position: relative;
     border-radius: 25px;
-    width: 40%;
+    width: 50%;
     height: auto;
     background-color: #212B38;
-    margin-top:2em ;
-    margin-bottom:4em ;
+    
+    margin-bottom:10em ;
 
 }
 
@@ -174,11 +188,61 @@ a{
     width: 12em;
     /* background-color: #37465B; */
     color: #fff;
-    font-size: 2.5em;
+    font-size: 3.5em;
     padding: 1em 1em;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: #000;
   }
+
+  .tabela{
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      border:solid 1px #000;
+      font: 1.5em Roboto;
+      color: #fff;
+  }
+  .ln-um{
+      line-height: 1.3em;
+      font-weight: bold;
+  }
+ 
+
+  .linha{
+      display: flex;
+      flex-direction: row;
+      /* border:solid 1px #000; */
+    background-color: #696969;
+  }
+.b{
+    background-color: #494949;
+}
+  .coluna{
+      padding: .5em 1em;
+      
+  }
+
+.c-1{
+    width: 10%;
+  }
+
+.c-2{
+    width: 27%;
+}
+
+.c-3{
+    width: 20%;
+}
+
+.c-4{
+    width: 20%;
+}
+
+.c-5{
+    width: 20%;
+}
+
+
 
 
 /* //// FOOTER/RODAPÉ //// */
@@ -193,7 +257,7 @@ a{
     color: #fff;
     background-color: #212B38;
     height: 15em;
-    margin-top: 3em; 
+    margin-top: 7em; 
 }
 
 .info-footer{
