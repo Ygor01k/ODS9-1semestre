@@ -78,6 +78,7 @@ a{
 .container-cont{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 }
@@ -87,88 +88,97 @@ a{
     /* margin: 1em */
 }
 
-
-
-h1{
-    font: 5em Roboto ;
-}
-
-.cont{
+.cont-img{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 1em;
-    width: 75%;
-
+    
 }
 
-.titulo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.div-img{
+    position: relative;
+    border-radius: 25px;
+    width: 40%;
+    height: auto;
     background-color: #212B38;
-    font: 5em Roboto ;
-    color: #fff;
-    width: 100%;
-    height: 2em;
-    border-radius: 5px;
-    /* margin-bottom: 1em; */
+    margin-top:2em ;
+    margin-bottom:4em ;
+
 }
 
-.img-grande{
-    
-    max-width: 70%;
-    height: auto;
+.image{
+    transition: 1s ease;
+    border-radius: 24px;
 }
 
-img{
-    width:500em;
-    max-width: 25%;
-    height: auto;
-    margin-right: 5em;
-}
-
-.intro{
-    max-width:75% ;
-    margin-bottom: 5em;
-}
-
-.txt-intro{
+.middle{
+    transition: .75s ease;
+    opacity: 1;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
     text-align: center;
-   
-}
-
-.txt-img{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15em;
-    width: 95%;
     
-}
-
-.div-texto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width:100% ;
+  }
+  
+  .middle-hover{
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
     
+  }
+  
+  .div-img:hover .image {
     
-}
-
-.texto{
-    font:3.5em Roboto;
-    margin-top: 1em;
+    opacity: 0.4;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+  
+  .div-img:hover .middle-hover {
+  
+    opacity: 1;
+  }
+  
+  .div-img:hover .middle {
     
-}
+    opacity: 1;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
 
-.txt-bat{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+  .text-hover {
+    background-color: rgba(55, 70, 91, 0.75);
+    color: white;
+    font-size: 2em;
+    padding: 16px 32px;
+    width: 100%;
+  }
 
-    align-items: flex-start;
-}
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    width: 12em;
+    /* background-color: #37465B; */
+    color: #fff;
+    font-size: 2.5em;
+    padding: 1em 1em;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000;
+  }
 
 
 /* //// FOOTER/RODAPÉ //// */
